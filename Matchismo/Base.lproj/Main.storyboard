@@ -24,7 +24,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="28" width="64" height="96"/>
+                                    <rect key="frame" x="60" y="47" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0v9-fh-ULg"/>
@@ -38,7 +38,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="28" width="64" height="96"/>
+                                    <rect key="frame" x="132" y="47" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hUG-2C-q17"/>
@@ -52,7 +52,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="204" y="28" width="64" height="96"/>
+                                    <rect key="frame" x="204" y="47" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zjq-r0-uoE"/>
@@ -66,7 +66,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="276" y="28" width="64" height="96"/>
+                                    <rect key="frame" x="276" y="47" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CBk-Gc-bY5"/>
@@ -136,7 +136,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="280" width="64" height="96"/>
+                                    <rect key="frame" x="60" y="255" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dZb-em-318"/>
@@ -150,7 +150,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="280" width="64" height="96"/>
+                                    <rect key="frame" x="132" y="255" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ki2-W6-CaM"/>
@@ -164,7 +164,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="204" y="280" width="64" height="96"/>
+                                    <rect key="frame" x="204" y="255" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i58-t0-M96"/>
@@ -178,21 +178,12 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="276" y="280" width="64" height="96"/>
+                                    <rect key="frame" x="276" y="255" width="64" height="96"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8kZ-NF-03c"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-eN-KBk">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="559" width="368" height="21"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgi-b2-5jF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -202,12 +193,44 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="128" y="448" width="145" height="30"/>
+                                    <rect key="frame" x="128" y="398" width="145" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchRedealDeckButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p1b-XJ-9xH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many cards would you like to match?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QD-2f-HW3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="465" width="326" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-eN-KBk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="28" width="368" height="21"/>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vZZ-GU-whm">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="Two"/>
+                                    <segment title="Three"/>
+                                </segments>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="496" width="123" height="29"/>
+                                </variation>
+                                <connections>
+                                    <action selector="selectNumCardsMatchingControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="vKk-XL-dfb"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -224,8 +247,10 @@
                                 <exclude reference="GcE-6O-mWJ"/>
                                 <exclude reference="PCq-pq-VJv"/>
                                 <exclude reference="Vff-a3-KU6"/>
-                                <exclude reference="7WR-eN-KBk"/>
                                 <exclude reference="Dgi-b2-5jF"/>
+                                <exclude reference="1QD-2f-HW3"/>
+                                <exclude reference="7WR-eN-KBk"/>
+                                <exclude reference="vZZ-GU-whm"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -242,12 +267,15 @@
                                 <include reference="GcE-6O-mWJ"/>
                                 <include reference="PCq-pq-VJv"/>
                                 <include reference="Vff-a3-KU6"/>
-                                <include reference="7WR-eN-KBk"/>
                                 <include reference="Dgi-b2-5jF"/>
+                                <include reference="1QD-2f-HW3"/>
+                                <include reference="7WR-eN-KBk"/>
+                                <include reference="vZZ-GU-whm"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="numCardsMatchingSelector" destination="vZZ-GU-whm" id="EcG-ac-Eaz"/>
                         <outlet property="redealDeckButton" destination="Dgi-b2-5jF" id="5WE-xD-v8N"/>
                         <outlet property="scoreLabel" destination="7WR-eN-KBk" id="qws-Y2-Y53"/>
                         <outletCollection property="cardButtons" destination="Upo-Bo-LX0" id="8sl-MO-YDH"/>
@@ -266,6 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="490.5" y="222"/>
         </scene>
     </scenes>
     <resources>

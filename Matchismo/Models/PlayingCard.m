@@ -42,13 +42,17 @@
 -(int)match:(NSArray *)otherCards
 {
     int score = 0;
-    
-    if ([otherCards count] == 1){
-        PlayingCard *otherCard = [otherCards firstObject];
-        if (otherCard.rank == self.rank) {
-            score = 4;
-        } else if ([otherCard.suit isEqualToString:self.suit]) {
-            score = 1;
+    if ([otherCards count]){
+        for (PlayingCard *otherCard in otherCards) {
+            if (otherCard.rank == self.rank) {
+                score += 4;
+                otherCard.matched = YES;
+                self.matched = YES;
+            } else if ([otherCard.suit isEqualToString:self.suit]) {
+                score += 1;
+                otherCard.matched = YES;
+                self.matched = YES;
+            }
         }
     }
     
