@@ -16,15 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVW-hJ-23s">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="559" width="320" height="21"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upo-Bo-LX0">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -193,11 +184,34 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8kZ-NF-03c"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-eN-KBk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="559" width="368" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgi-b2-5jF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="128" y="448" width="145" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchRedealDeckButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p1b-XJ-9xH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="oVW-hJ-23s"/>
                                 <exclude reference="Upo-Bo-LX0"/>
                                 <exclude reference="kpp-5W-hCL"/>
                                 <exclude reference="Y0E-2W-BSD"/>
@@ -210,11 +224,12 @@
                                 <exclude reference="GcE-6O-mWJ"/>
                                 <exclude reference="PCq-pq-VJv"/>
                                 <exclude reference="Vff-a3-KU6"/>
+                                <exclude reference="7WR-eN-KBk"/>
+                                <exclude reference="Dgi-b2-5jF"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="oVW-hJ-23s"/>
                                 <include reference="Upo-Bo-LX0"/>
                                 <include reference="kpp-5W-hCL"/>
                                 <include reference="Y0E-2W-BSD"/>
@@ -227,11 +242,26 @@
                                 <include reference="GcE-6O-mWJ"/>
                                 <include reference="PCq-pq-VJv"/>
                                 <include reference="Vff-a3-KU6"/>
+                                <include reference="7WR-eN-KBk"/>
+                                <include reference="Dgi-b2-5jF"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="flipsLabel" destination="oVW-hJ-23s" id="IAb-bO-Rx1"/>
+                        <outlet property="redealDeckButton" destination="Dgi-b2-5jF" id="5WE-xD-v8N"/>
+                        <outlet property="scoreLabel" destination="7WR-eN-KBk" id="qws-Y2-Y53"/>
+                        <outletCollection property="cardButtons" destination="Upo-Bo-LX0" id="8sl-MO-YDH"/>
+                        <outletCollection property="cardButtons" destination="kpp-5W-hCL" id="kLi-NZ-WTQ"/>
+                        <outletCollection property="cardButtons" destination="Y0E-2W-BSD" id="f2T-qM-HRj"/>
+                        <outletCollection property="cardButtons" destination="b8K-bZ-RV3" id="Utq-99-Gnm"/>
+                        <outletCollection property="cardButtons" destination="HPf-2h-jPz" id="ffG-LO-mEd"/>
+                        <outletCollection property="cardButtons" destination="eEG-9L-Yxy" id="ZiC-8b-SeZ"/>
+                        <outletCollection property="cardButtons" destination="dQl-5x-aab" id="CvU-t6-VZu"/>
+                        <outletCollection property="cardButtons" destination="KwU-SW-3il" id="xE8-g6-9Ts"/>
+                        <outletCollection property="cardButtons" destination="6WW-ul-iDV" id="Vre-gp-v3k"/>
+                        <outletCollection property="cardButtons" destination="GcE-6O-mWJ" id="EkB-I1-DqE"/>
+                        <outletCollection property="cardButtons" destination="PCq-pq-VJv" id="f3X-6U-fqX"/>
+                        <outletCollection property="cardButtons" destination="Vff-a3-KU6" id="ysG-hh-hen"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
