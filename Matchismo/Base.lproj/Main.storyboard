@@ -12,8 +12,8 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="center" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upo-Bo-LX0">
@@ -23,9 +23,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="47" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0v9-fh-ULg"/>
                                 </connections>
@@ -37,9 +34,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="47" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hUG-2C-q17"/>
                                 </connections>
@@ -51,9 +45,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="204" y="47" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zjq-r0-uoE"/>
                                 </connections>
@@ -65,9 +56,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="276" y="47" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CBk-Gc-bY5"/>
                                 </connections>
@@ -75,13 +63,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPf-2h-jPz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" backgroundImage="cardback">
+                                <state key="normal" title="1" backgroundImage="cardback">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="151" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4tM-BP-5sn"/>
                                 </connections>
@@ -93,9 +78,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="151" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kEt-YR-fhl"/>
                                 </connections>
@@ -107,9 +89,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="204" y="151" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="z7h-2r-fCx"/>
                                 </connections>
@@ -121,9 +100,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="276" y="151" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8es-j7-ID0"/>
                                 </connections>
@@ -135,9 +111,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="255" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dZb-em-318"/>
                                 </connections>
@@ -149,9 +122,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="255" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ki2-W6-CaM"/>
                                 </connections>
@@ -163,9 +133,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="204" y="255" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i58-t0-M96"/>
                                 </connections>
@@ -177,14 +144,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="276" y="255" width="64" height="96"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8kZ-NF-03c"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgi-b2-5jF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgi-b2-5jF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -192,40 +156,57 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="128" y="398" width="145" height="30"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.corerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="88" y="355" width="145" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchRedealDeckButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p1b-XJ-9xH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many cards would you like to match?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QD-2f-HW3">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="37" y="465" width="326" height="21"/>
-                                </variation>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-eN-KBk">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="28" width="368" height="21"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="35" y="20" width="250" height="21"/>
                                 </variation>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vZZ-GU-whm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many cards would you like to match?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1QD-2f-HW3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="15" y="393" width="289" height="21"/>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vZZ-GU-whm">
                                 <rect key="frame" x="-61" y="-14" width="123" height="29"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="YnB-dc-RE8"/>
+                                </constraints>
                                 <segments>
                                     <segment title="Two"/>
                                     <segment title="Three"/>
                                 </segments>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="139" y="496" width="123" height="29"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="YnB-dc-RE8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="99" y="422" width="123" height="29"/>
+                                    <mask key="constraints">
+                                        <include reference="YnB-dc-RE8"/>
+                                    </mask>
                                 </variation>
                                 <connections>
                                     <action selector="selectNumCardsMatchingControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="vKk-XL-dfb"/>
@@ -233,6 +214,40 @@
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Upo-Bo-LX0" firstAttribute="top" secondItem="7WR-eN-KBk" secondAttribute="bottom" constant="2" id="35k-ZH-ZzP"/>
+                            <constraint firstAttribute="centerX" secondItem="Dgi-b2-5jF" secondAttribute="centerX" id="3aj-R4-61T"/>
+                            <constraint firstItem="eEG-9L-Yxy" firstAttribute="centerY" secondItem="dQl-5x-aab" secondAttribute="centerY" id="65T-Ta-hKr"/>
+                            <constraint firstItem="PCq-pq-VJv" firstAttribute="centerY" secondItem="GcE-6O-mWJ" secondAttribute="centerY" id="6Yw-PI-Apu"/>
+                            <constraint firstItem="Upo-Bo-LX0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="23" id="87g-h1-lC1"/>
+                            <constraint firstItem="kpp-5W-hCL" firstAttribute="centerY" secondItem="Upo-Bo-LX0" secondAttribute="centerY" id="BFU-2k-uCA"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerY" secondItem="HPf-2h-jPz" secondAttribute="centerY" constant="-164.5" id="DpS-cx-EK5"/>
+                            <constraint firstItem="vZZ-GU-whm" firstAttribute="top" secondItem="1QD-2f-HW3" secondAttribute="bottom" constant="8" id="E7t-5w-0Gw"/>
+                            <constraint firstItem="PCq-pq-VJv" firstAttribute="centerY" secondItem="Vff-a3-KU6" secondAttribute="centerY" id="Fxd-lq-yli"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="kpp-5W-hCL" secondAttribute="centerX" constant="40" id="HJ1-yI-FlF"/>
+                            <constraint firstItem="1QD-2f-HW3" firstAttribute="top" secondItem="Dgi-b2-5jF" secondAttribute="bottom" constant="8" id="KZH-LD-eEe"/>
+                            <constraint firstItem="6WW-ul-iDV" firstAttribute="centerY" secondItem="7WR-eN-KBk" secondAttribute="centerY" constant="268.5" id="OPf-b6-tNz"/>
+                            <constraint firstItem="b8K-bZ-RV3" firstAttribute="centerX" secondItem="7WR-eN-KBk" secondAttribute="centerX" constant="104" id="Qwg-SM-0q3"/>
+                            <constraint firstItem="6WW-ul-iDV" firstAttribute="centerX" secondItem="7WR-eN-KBk" secondAttribute="centerX" constant="-112" id="TEU-MF-Qrp"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="Vff-a3-KU6" secondAttribute="centerX" constant="-104" id="TLk-88-SIu"/>
+                            <constraint firstItem="Dgi-b2-5jF" firstAttribute="top" secondItem="PCq-pq-VJv" secondAttribute="bottom" constant="8" id="TdC-Hq-e2N"/>
+                            <constraint firstItem="eEG-9L-Yxy" firstAttribute="centerX" secondItem="7WR-eN-KBk" secondAttribute="centerX" constant="-40" id="WhJ-xi-h1e"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="Upo-Bo-LX0" secondAttribute="centerX" constant="112" id="aVI-uo-aSx"/>
+                            <constraint firstItem="PCq-pq-VJv" firstAttribute="centerX" secondItem="7WR-eN-KBk" secondAttribute="centerX" constant="32" id="cgE-Lt-6On"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="Y0E-2W-BSD" secondAttribute="centerX" constant="-32" id="dLy-eM-Fw5"/>
+                            <constraint firstAttribute="centerX" secondItem="7WR-eN-KBk" secondAttribute="centerX" id="fdc-rx-I3B"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="HPf-2h-jPz" secondAttribute="centerX" constant="112" id="hhC-ho-8C0"/>
+                            <constraint firstAttribute="centerX" secondItem="vZZ-GU-whm" secondAttribute="centerX" id="iy2-WU-g8P"/>
+                            <constraint firstItem="kpp-5W-hCL" firstAttribute="centerY" secondItem="Y0E-2W-BSD" secondAttribute="centerY" id="lex-jJ-uVt"/>
+                            <constraint firstItem="b8K-bZ-RV3" firstAttribute="centerY" secondItem="Y0E-2W-BSD" secondAttribute="centerY" id="mer-ph-CdS"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="dQl-5x-aab" secondAttribute="centerX" constant="-32" id="mzO-gg-y2G"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="GcE-6O-mWJ" secondAttribute="centerX" constant="40" id="nKM-3g-GN4"/>
+                            <constraint firstItem="eEG-9L-Yxy" firstAttribute="centerY" secondItem="HPf-2h-jPz" secondAttribute="centerY" id="qxi-f0-8yW"/>
+                            <constraint firstItem="6WW-ul-iDV" firstAttribute="centerY" secondItem="GcE-6O-mWJ" secondAttribute="centerY" id="rNv-Df-ccK"/>
+                            <constraint firstItem="dQl-5x-aab" firstAttribute="centerY" secondItem="KwU-SW-3il" secondAttribute="centerY" id="s9g-94-FTp"/>
+                            <constraint firstItem="7WR-eN-KBk" firstAttribute="centerX" secondItem="KwU-SW-3il" secondAttribute="centerX" constant="-104" id="tMD-x4-whB"/>
+                            <constraint firstAttribute="centerX" secondItem="1QD-2f-HW3" secondAttribute="centerX" id="xcM-Cl-qqY"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Upo-Bo-LX0"/>
@@ -248,9 +263,43 @@
                                 <exclude reference="PCq-pq-VJv"/>
                                 <exclude reference="Vff-a3-KU6"/>
                                 <exclude reference="Dgi-b2-5jF"/>
-                                <exclude reference="1QD-2f-HW3"/>
                                 <exclude reference="7WR-eN-KBk"/>
+                                <exclude reference="1QD-2f-HW3"/>
                                 <exclude reference="vZZ-GU-whm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="DpS-cx-EK5"/>
+                                <exclude reference="HJ1-yI-FlF"/>
+                                <exclude reference="TLk-88-SIu"/>
+                                <exclude reference="aVI-uo-aSx"/>
+                                <exclude reference="dLy-eM-Fw5"/>
+                                <exclude reference="fdc-rx-I3B"/>
+                                <exclude reference="hhC-ho-8C0"/>
+                                <exclude reference="mzO-gg-y2G"/>
+                                <exclude reference="nKM-3g-GN4"/>
+                                <exclude reference="tMD-x4-whB"/>
+                                <exclude reference="35k-ZH-ZzP"/>
+                                <exclude reference="87g-h1-lC1"/>
+                                <exclude reference="BFU-2k-uCA"/>
+                                <exclude reference="lex-jJ-uVt"/>
+                                <exclude reference="65T-Ta-hKr"/>
+                                <exclude reference="WhJ-xi-h1e"/>
+                                <exclude reference="qxi-f0-8yW"/>
+                                <exclude reference="s9g-94-FTp"/>
+                                <exclude reference="Qwg-SM-0q3"/>
+                                <exclude reference="mer-ph-CdS"/>
+                                <exclude reference="OPf-b6-tNz"/>
+                                <exclude reference="TEU-MF-Qrp"/>
+                                <exclude reference="rNv-Df-ccK"/>
+                                <exclude reference="6Yw-PI-Apu"/>
+                                <exclude reference="Fxd-lq-yli"/>
+                                <exclude reference="cgE-Lt-6On"/>
+                                <exclude reference="3aj-R4-61T"/>
+                                <exclude reference="TdC-Hq-e2N"/>
+                                <exclude reference="KZH-LD-eEe"/>
+                                <exclude reference="xcM-Cl-qqY"/>
+                                <exclude reference="E7t-5w-0Gw"/>
+                                <exclude reference="iy2-WU-g8P"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -268,12 +317,49 @@
                                 <include reference="PCq-pq-VJv"/>
                                 <include reference="Vff-a3-KU6"/>
                                 <include reference="Dgi-b2-5jF"/>
-                                <include reference="1QD-2f-HW3"/>
                                 <include reference="7WR-eN-KBk"/>
+                                <include reference="1QD-2f-HW3"/>
                                 <include reference="vZZ-GU-whm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="DpS-cx-EK5"/>
+                                <include reference="HJ1-yI-FlF"/>
+                                <include reference="TLk-88-SIu"/>
+                                <include reference="aVI-uo-aSx"/>
+                                <include reference="dLy-eM-Fw5"/>
+                                <include reference="fdc-rx-I3B"/>
+                                <include reference="hhC-ho-8C0"/>
+                                <include reference="mzO-gg-y2G"/>
+                                <include reference="nKM-3g-GN4"/>
+                                <include reference="tMD-x4-whB"/>
+                                <include reference="35k-ZH-ZzP"/>
+                                <include reference="87g-h1-lC1"/>
+                                <include reference="BFU-2k-uCA"/>
+                                <include reference="lex-jJ-uVt"/>
+                                <include reference="65T-Ta-hKr"/>
+                                <include reference="WhJ-xi-h1e"/>
+                                <include reference="qxi-f0-8yW"/>
+                                <include reference="s9g-94-FTp"/>
+                                <include reference="Qwg-SM-0q3"/>
+                                <include reference="mer-ph-CdS"/>
+                                <include reference="OPf-b6-tNz"/>
+                                <include reference="TEU-MF-Qrp"/>
+                                <include reference="rNv-Df-ccK"/>
+                                <include reference="6Yw-PI-Apu"/>
+                                <include reference="Fxd-lq-yli"/>
+                                <include reference="cgE-Lt-6On"/>
+                                <include reference="3aj-R4-61T"/>
+                                <include reference="TdC-Hq-e2N"/>
+                                <include reference="KZH-LD-eEe"/>
+                                <include reference="xcM-Cl-qqY"/>
+                                <include reference="E7t-5w-0Gw"/>
+                                <include reference="iy2-WU-g8P"/>
                             </mask>
                         </variation>
                     </view>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="numCardsMatchingSelector" destination="vZZ-GU-whm" id="EcG-ac-Eaz"/>
                         <outlet property="redealDeckButton" destination="Dgi-b2-5jF" id="5WE-xD-v8N"/>
@@ -294,7 +380,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="490.5" y="222"/>
+            <point key="canvasLocation" x="294" y="186"/>
         </scene>
     </scenes>
     <resources>
