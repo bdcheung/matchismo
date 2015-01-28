@@ -39,23 +39,26 @@
     }
 }
 
--(int)match:(NSArray *)otherCards
+-(int)match:(NSMutableArray *)otherCards
 {
     int score = 0;
     if ([otherCards count]){
-        for (PlayingCard *otherCard in otherCards) {
-            if (otherCard.rank == self.rank) {
-                score += 4;
-                otherCard.matched = YES;
-                self.matched = YES;
-            } else if ([otherCard.suit isEqualToString:self.suit]) {
-                score += 1;
-                otherCard.matched = YES;
-                self.matched = YES;
+        for (int i=0; i < [otherCards count]; i++){
+            for (int j=i+1; j < [otherCards count]; j++){
+                PlayingCard *card1 = otherCards[i];
+                PlayingCard *card2 = otherCards[j];
+                if (card1.rank == card2.rank){
+                    score += 4;
+                    card1.matched = YES;
+                    card2.matched = YES;
+                } else if ([card1.suit isEqualToString:card2.suit]){
+                    score += 1;
+                    card1.matched = YES;
+                    card2.matched = YES;
+                }
             }
         }
     }
-    
     return score;
 }
 @end

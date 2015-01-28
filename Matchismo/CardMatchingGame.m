@@ -61,17 +61,31 @@ static const int COST_TO_CHOOSE = -1;
     if (!card.isMatched) {
         if (card.isChosen){
             card.chosen = NO;
-            [self.cardsForMatching removeAllObjects];
+            [self.cardsForMatching removeObject:card];
         } else {
+            if (![self.cardsForMatching containsObject:card]){
+                [self.cardsForMatching addObject:card];
+            }
             for (Card *otherCard in self.cards) {
                 if (otherCard.isChosen && !otherCard.isMatched) {
-                    [self.cardsForMatching addObject:otherCard];
-                    if ([self.cardsForMatching count] == self.numCardsToMatch - 1)
-                    {
+                    if (![self.cardsForMatching containsObject:card]){
+                        [self.cardsForMatching addObject:otherCard];
+                    }
+                    if ([self.cardsForMatching count] == self.numCardsToMatch){
                         int matchScore = [card match:self.cardsForMatching];
                         if (matchScore){
                             self.score += matchScore * MATCH_BONUS;
-                            [self.cardsForMatching removeAllObjects];
+                            NSMutableArray *objectsForRemoval = [NSMutableArray new];
+                            for (Card *card in self.cardsForMatching){
+                                if (card.isMatched) {
+                                    [objectsForRemoval addObject:card];
+                                }
+                            }
+                            
+                            for (Card *card in objectsForRemoval){
+                                [self.cardsForMatching removeObject:card];
+                            }
+
                         } else {
                             self.score -= MISMATCH_PENALTY;
                             for (Card *someCard in self.cardsForMatching)
@@ -83,6 +97,9 @@ static const int COST_TO_CHOOSE = -1;
                     }
                     break;
                 }
+            }
+            if (![self.cardsForMatching containsObject:card] && !card.isMatched ){
+                [self.cardsForMatching addObject:card];
             }
             self.score += COST_TO_CHOOSE;
             card.chosen = YES;
