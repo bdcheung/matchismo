@@ -39,7 +39,7 @@
     }
 }
 
--(int)match:(NSMutableOrderedSet *)otherCards
+-(int)match:(NSMutableArray *)otherCards
 {
     int score = 0;
     if ([otherCards count]){

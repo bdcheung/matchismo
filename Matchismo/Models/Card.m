@@ -9,7 +9,7 @@
 #import "Card.h"
 
 @implementation Card
--(int)match:(NSMutableOrderedSet *)otherCards
+-(int)match:(NSMutableArray *)otherCards
 {
     int score = 0;
     

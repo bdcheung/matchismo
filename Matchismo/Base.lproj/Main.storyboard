@@ -162,9 +162,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="141" y="355" width="118" height="41"/>
-                                </variation>
                                 <connections>
                                     <action selector="touchRedealDeckButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p1b-XJ-9xH"/>
                                 </connections>
@@ -180,9 +177,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="63" y="404" width="274" height="17"/>
-                                </variation>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vZZ-GU-whm">
                                 <rect key="frame" x="-61" y="-14" width="123" height="29"/>
@@ -199,8 +193,7 @@
                                         <exclude reference="YnB-dc-RE8"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="152" y="429" width="97" height="29"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="YnB-dc-RE8"/>
                                     </mask>
