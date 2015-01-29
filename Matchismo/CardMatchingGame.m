@@ -11,7 +11,7 @@
 @property(nonatomic, readwrite) NSInteger score;
 @property(nonatomic, strong) NSMutableArray *cards; //of Card
 @property(nonatomic, readwrite) NSInteger numCardsToMatch;
-@property(nonatomic, readwrite) NSMutableArray *cardsForMatching;
+@property(nonatomic, readwrite) NSMutableOrderedSet *cardsForMatching;
 @end
 
 @implementation CardMatchingGame
@@ -20,8 +20,8 @@ static const int MISMATCH_PENALTY = 2;
 static const int MATCH_BONUS = 4;
 static const int COST_TO_CHOOSE = -1;
 
-- (NSMutableArray*)cardsForMatching{
-    if (!_cardsForMatching) _cardsForMatching = [[NSMutableArray alloc] init];
+- (NSMutableOrderedSet*)cardsForMatching{
+    if (!_cardsForMatching) _cardsForMatching = [[NSMutableOrderedSet alloc] init];
     return _cardsForMatching;
 }
 - (NSMutableArray *)cards
@@ -63,9 +63,8 @@ static const int COST_TO_CHOOSE = -1;
             card.chosen = NO;
             [self.cardsForMatching removeObject:card];
         } else {
-            if (![self.cardsForMatching containsObject:card]){
-                [self.cardsForMatching addObject:card];
-            }
+            [self.cardsForMatching addObject:card];
+            
             for (Card *otherCard in self.cards) {
                 if (otherCard.isChosen && !otherCard.isMatched) {
                     if (![self.cardsForMatching containsObject:card]){
@@ -98,9 +97,8 @@ static const int COST_TO_CHOOSE = -1;
                     break;
                 }
             }
-            if (![self.cardsForMatching containsObject:card] && !card.isMatched ){
-                [self.cardsForMatching addObject:card];
-            }
+            [self.cardsForMatching addObject:card];
+            
             self.score += COST_TO_CHOOSE;
             card.chosen = YES;
         }

@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="center" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upo-Bo-LX0">
@@ -151,7 +151,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgi-b2-5jF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <state key="normal" title="New Game">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -163,7 +163,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="88" y="355" width="145" height="30"/>
+                                    <rect key="frame" x="141" y="355" width="118" height="41"/>
                                 </variation>
                                 <connections>
                                     <action selector="touchRedealDeckButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p1b-XJ-9xH"/>
@@ -174,9 +174,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="35" y="20" width="250" height="21"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many cards would you like to match?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1QD-2f-HW3">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -184,7 +181,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="15" y="393" width="289" height="21"/>
+                                    <rect key="frame" x="63" y="404" width="274" height="17"/>
                                 </variation>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vZZ-GU-whm">
@@ -203,7 +200,7 @@
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="99" y="422" width="123" height="29"/>
+                                    <rect key="frame" x="152" y="429" width="97" height="29"/>
                                     <mask key="constraints">
                                         <include reference="YnB-dc-RE8"/>
                                     </mask>
@@ -268,6 +265,8 @@
                                 <exclude reference="vZZ-GU-whm"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="KZH-LD-eEe"/>
+                                <exclude reference="xcM-Cl-qqY"/>
                                 <exclude reference="DpS-cx-EK5"/>
                                 <exclude reference="HJ1-yI-FlF"/>
                                 <exclude reference="TLk-88-SIu"/>
@@ -278,26 +277,24 @@
                                 <exclude reference="mzO-gg-y2G"/>
                                 <exclude reference="nKM-3g-GN4"/>
                                 <exclude reference="tMD-x4-whB"/>
-                                <exclude reference="35k-ZH-ZzP"/>
-                                <exclude reference="87g-h1-lC1"/>
-                                <exclude reference="BFU-2k-uCA"/>
-                                <exclude reference="lex-jJ-uVt"/>
-                                <exclude reference="65T-Ta-hKr"/>
-                                <exclude reference="WhJ-xi-h1e"/>
-                                <exclude reference="qxi-f0-8yW"/>
-                                <exclude reference="s9g-94-FTp"/>
-                                <exclude reference="Qwg-SM-0q3"/>
-                                <exclude reference="mer-ph-CdS"/>
                                 <exclude reference="OPf-b6-tNz"/>
                                 <exclude reference="TEU-MF-Qrp"/>
                                 <exclude reference="rNv-Df-ccK"/>
+                                <exclude reference="3aj-R4-61T"/>
+                                <exclude reference="TdC-Hq-e2N"/>
                                 <exclude reference="6Yw-PI-Apu"/>
                                 <exclude reference="Fxd-lq-yli"/>
                                 <exclude reference="cgE-Lt-6On"/>
-                                <exclude reference="3aj-R4-61T"/>
-                                <exclude reference="TdC-Hq-e2N"/>
-                                <exclude reference="KZH-LD-eEe"/>
-                                <exclude reference="xcM-Cl-qqY"/>
+                                <exclude reference="35k-ZH-ZzP"/>
+                                <exclude reference="87g-h1-lC1"/>
+                                <exclude reference="Qwg-SM-0q3"/>
+                                <exclude reference="mer-ph-CdS"/>
+                                <exclude reference="s9g-94-FTp"/>
+                                <exclude reference="65T-Ta-hKr"/>
+                                <exclude reference="WhJ-xi-h1e"/>
+                                <exclude reference="qxi-f0-8yW"/>
+                                <exclude reference="BFU-2k-uCA"/>
+                                <exclude reference="lex-jJ-uVt"/>
                                 <exclude reference="E7t-5w-0Gw"/>
                                 <exclude reference="iy2-WU-g8P"/>
                             </mask>
@@ -322,6 +319,8 @@
                                 <include reference="vZZ-GU-whm"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="KZH-LD-eEe"/>
+                                <include reference="xcM-Cl-qqY"/>
                                 <include reference="DpS-cx-EK5"/>
                                 <include reference="HJ1-yI-FlF"/>
                                 <include reference="TLk-88-SIu"/>
@@ -332,34 +331,30 @@
                                 <include reference="mzO-gg-y2G"/>
                                 <include reference="nKM-3g-GN4"/>
                                 <include reference="tMD-x4-whB"/>
-                                <include reference="35k-ZH-ZzP"/>
-                                <include reference="87g-h1-lC1"/>
-                                <include reference="BFU-2k-uCA"/>
-                                <include reference="lex-jJ-uVt"/>
-                                <include reference="65T-Ta-hKr"/>
-                                <include reference="WhJ-xi-h1e"/>
-                                <include reference="qxi-f0-8yW"/>
-                                <include reference="s9g-94-FTp"/>
-                                <include reference="Qwg-SM-0q3"/>
-                                <include reference="mer-ph-CdS"/>
                                 <include reference="OPf-b6-tNz"/>
                                 <include reference="TEU-MF-Qrp"/>
                                 <include reference="rNv-Df-ccK"/>
+                                <include reference="3aj-R4-61T"/>
+                                <include reference="TdC-Hq-e2N"/>
                                 <include reference="6Yw-PI-Apu"/>
                                 <include reference="Fxd-lq-yli"/>
                                 <include reference="cgE-Lt-6On"/>
-                                <include reference="3aj-R4-61T"/>
-                                <include reference="TdC-Hq-e2N"/>
-                                <include reference="KZH-LD-eEe"/>
-                                <include reference="xcM-Cl-qqY"/>
+                                <include reference="35k-ZH-ZzP"/>
+                                <include reference="87g-h1-lC1"/>
+                                <include reference="Qwg-SM-0q3"/>
+                                <include reference="mer-ph-CdS"/>
+                                <include reference="s9g-94-FTp"/>
+                                <include reference="65T-Ta-hKr"/>
+                                <include reference="WhJ-xi-h1e"/>
+                                <include reference="qxi-f0-8yW"/>
+                                <include reference="BFU-2k-uCA"/>
+                                <include reference="lex-jJ-uVt"/>
                                 <include reference="E7t-5w-0Gw"/>
                                 <include reference="iy2-WU-g8P"/>
                             </mask>
                         </variation>
                     </view>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="numCardsMatchingSelector" destination="vZZ-GU-whm" id="EcG-ac-Eaz"/>
                         <outlet property="redealDeckButton" destination="Dgi-b2-5jF" id="5WE-xD-v8N"/>
@@ -380,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="294" y="186"/>
+            <point key="canvasLocation" x="133.5" y="-44"/>
         </scene>
     </scenes>
     <resources>
